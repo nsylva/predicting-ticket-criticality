@@ -33,12 +33,6 @@
 #### Model 1 Diagram
 [Insert images]
 
-#### Baseline 1: Regular Normalization 
-[Insert images]
-
-#### Baseline 2: Semantic Augmentation
-[Insert images]
-
 ### Model 2: Frozen BERT and Dense NN
 * Frozen BERT: no fine-tuning
 * Sequence representation
@@ -46,12 +40,6 @@
 * Examine if dense network can pick up features better than BERT fine-tuning alone
 
 #### Model 2 Diagram
-[Insert images]
-
-#### Baseline 1: Regular Normalization 
-[Insert images]
-
-#### Baseline 2: Semantic Augmentation
 [Insert images]
 
 ### Model 3: Frozen BERT, CNN, and Dense NN
@@ -63,8 +51,22 @@
 #### Model 3 Diagram
 [Insert images]
 
+## Results
+
+### Model 1: Simple Classifier with BERT Fine Tuning
 #### Baseline 1: Regular Normalization 
 [Insert images]
+#### Baseline 2: Semantic Augmentation
+[Insert images]
 
+### Model 2: Frozen BERT and Dense NN
+#### Baseline 1: Regular Normalization 
+[Insert images]
+#### Baseline 2: Semantic Augmentation
+[Insert images]
+
+### Model 3: Frozen BERT, CNN, and Dense NN
+#### Baseline 1: Regular Normalization 
+[Insert images]
 #### Baseline 2: Semantic Augmentation
 [Insert images]
