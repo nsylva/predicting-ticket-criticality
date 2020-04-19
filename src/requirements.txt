@@ -1,0 +1,7 @@
+pandas
+numpy
+bert-for-tf2
+sentencepiece
+tensorflow_hub
+h5py
+sklearn
