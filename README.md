@@ -1,2 +1,2 @@
-# w266_final_project
+# W266 Final Project
 Final W266 Project Submission
