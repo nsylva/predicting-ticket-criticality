@@ -1,17 +1,14 @@
 # W266 Final Project
-Final W266 Project Submission
-
-
 ## Predicting Software Support Ticket Criticality Using Sparse Imbalanced Data and NLP
 ### April 19, 2020
+* Matt Kane
+* Nick Sylva
+* Elena Petrov
 
-### Matt Kane
-### Nick Sylva
-### Elena Petrov
-
+## Folder Structure
+[TBU]
 
 ## Problem Statement
-
 * Create a screening tool for incoming email support requests that predicts the severity of the issue to facilitate support ticket triage before a human can read the support email.
 
 ## Dataset
@@ -33,6 +30,13 @@ Final W266 Project Submission
 * Sequence representation
 * Examine effectiveness of fine-tuning
 
+#### Model 1 Diagram
+[Insert images]
+
+#### Baseline 1: Regular Normalization 
+[Insert images]
+
+#### Baseline 2: Semantic Augmentation
 [Insert images]
 
 ### Model 2: Frozen BERT and Dense NN
@@ -41,75 +45,26 @@ Final W266 Project Submission
 * 4 dense layers
 * Examine if dense network can pick up features better than BERT fine-tuning alone
 
+#### Model 2 Diagram
+[Insert images]
+
+#### Baseline 1: Regular Normalization 
+[Insert images]
+
+#### Baseline 2: Semantic Augmentation
+[Insert images]
+
 ### Model 3: Frozen BERT, CNN, and Dense NN
 * Frozen BERT: no fine-tuning
 * Full embeddings for each token
 * Passed through three filter sizes of 64 filters each to pooling, concatenation, and dense network
 * Pick up on relationships between token embeddings
 
-**Baseline 1: Regular Normalization Baseline 2: Semantic Augmentation**
+#### Model 3 Diagram
+[Insert images]
 
-##### Model 1 Results: Simple Classifier with BERT Fine Tuning
+#### Baseline 1: Regular Normalization 
+[Insert images]
 
-
-##### Model 2: Frozen BERT and Dense NN
-
-**Baseline 1: Regular Normalization Baseline 2: Semantic Augmentation**
-
-
-##### Model 3 Results: Frozen BERT, CNN, and Dense NN
-
-**Baseline 1: Regular Normalization Baseline 2: Semantic Augmentation**
-
-
-## Conclusions
-
-- Fine-tuning on BERT does not
-
-##### solve everything
-
-- Bespoke dataset that is riddled
-    with colloquialisms, abbreviations,
-    sentence fragments and domain-
-    specific language
-- Other potential enhancements:
-- Use unfrozen BERT weights with
-model 3 architecture
-- Hyperparameter tuning
-
-
-## Questions
-
-
-# Appendices
-
-
-## Model 1
-
-## Diagram
-
-##### Simple Classifier with BERT
-
-##### Fine Tuning
-
-
-## Model 2
-
-## Diagram
-
-##### Frozen BERT and Dense
-
-##### Neural Network
-
-
-## Model 3
-
-## Diagram
-
-##### Frozen BERT, CNN and
-
-##### Feed Forward Dense
-
-##### Neural Network
-
-
+#### Baseline 2: Semantic Augmentation
+[Insert images]
