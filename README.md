@@ -8,6 +8,9 @@
 ## Folder Structure
 [TBU]
 
+## Final Paper
+[Link to final paper]
+
 ## Problem Statement
 * Create a screening tool for incoming email support requests that predicts the severity of the issue to facilitate support ticket triage before a human can read the support email.
 
