@@ -23,7 +23,7 @@
 * Large dataset
 * Thorough data cleansing
 * Semantic augmentation
-* Multi-label classification problem with highly imbalanced dataset
+* Multi-class classification problem with highly imbalanced dataset
 
 ## Model Specifications
 
@@ -34,7 +34,7 @@
 * Examine effectiveness of fine-tuning
 
 #### Model 1 Diagram
-[Insert images]
+![Model 1 Diagram](./img/model_1_diagram.png)
 
 ### Model 2: Frozen BERT and Dense NN
 * Frozen BERT: no fine-tuning
@@ -43,7 +43,7 @@
 * Examine if dense network can pick up features better than BERT fine-tuning alone
 
 #### Model 2 Diagram
-[Insert images]
+![Model 2 Diagram](./img/model_2_diagram.png)
 
 ### Model 3: Frozen BERT, CNN, and Dense NN
 * Frozen BERT: no fine-tuning
@@ -52,7 +52,7 @@
 * Pick up on relationships between token embeddings
 
 #### Model 3 Diagram
-[Insert images]
+![Model 3 Diagram](./img/model_3_diagram.png)
 
 ## Results
 
