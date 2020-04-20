@@ -1,15 +1,20 @@
 # W266 Final Project
 ## Predicting Software Support Ticket Criticality Using Sparse Imbalanced Data and NLP
-### April 19, 2020
+### April 20, 2020
 * Matt Kane
 * Nick Sylva
 * Elena Petrov
 
 ## Folder Structure
-[TBU]
+* **final_paper:** Final paper
+* **img:** images
+* **notebooks:** Colab Jupyter Notebooks
+* **papers:** Academic papers and references
+* **sample_dataset:** Sample dataset
+* **src:** Python code
 
 ## Final Paper
-[Link to final paper]
+![Link to final paper](./final_paper/W266_final_paper_kane_petrov_sylva.pdf)
 
 ## Problem Statement
 * Create a screening tool for incoming email support requests that predicts the severity of the issue to facilitate support ticket triage before a human can read the support email.
@@ -57,19 +62,19 @@
 ## Results
 
 ### Model 1: Simple Classifier with BERT Fine Tuning
-#### Baseline 1: Regular Normalization 
-[Insert images]
+#### Baseline 1: Regular Normalization
+![Model 1 Baseline 1 Diagram](./img/img_model1_b1.jpg)
 #### Baseline 2: Semantic Augmentation
-[Insert images]
+![Model 1 Baseline 2 Diagram](./img/img_model1_b2.jpg)
 
 ### Model 2: Frozen BERT and Dense NN
-#### Baseline 1: Regular Normalization 
-[Insert images]
+#### Baseline 1: Regular Normalization
+![Model 2 Baseline 1 Diagram](./img/img_model2_b1.jpg)
 #### Baseline 2: Semantic Augmentation
-[Insert images]
+![Model 2 Baseline 2 Diagram](./img/img_model2_b2.jpg)
 
 ### Model 3: Frozen BERT, CNN, and Dense NN
-#### Baseline 1: Regular Normalization 
-[Insert images]
+#### Baseline 1: Regular Normalization
+![Model 3 Baseline 1 Diagram](./img/img_model3_b1.jpg)
 #### Baseline 2: Semantic Augmentation
-[Insert images]
+![Model 3 Baseline 2 Diagram](./img/img_model3_b2.jpg)
