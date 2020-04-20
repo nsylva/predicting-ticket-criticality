@@ -23,7 +23,7 @@
 * Large dataset
 * Thorough data cleansing
 * Semantic augmentation
-* Multi-label classification problem with highly imbalanced dataset
+* Multi-class classification problem with highly imbalanced dataset
 
 ## Model Specifications
 
