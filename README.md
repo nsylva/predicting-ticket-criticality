@@ -1,8 +1,8 @@
 # W266 Final Project
 ## Predicting Software Support Ticket Criticality Using Sparse Imbalanced Data and NLP
 ### April 20, 2020
-* Matt Kane
 * Nick Sylva
+* Matt Kane
 * Elena Petrov
 
 ## Folder Structure
